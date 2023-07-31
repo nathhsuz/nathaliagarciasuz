@@ -1,0 +1,197 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,100;1,800&family=Noto+Sans+TC:wght@300;400;700&family=Ysabeau+Office:ital,wght@0,300;0,400;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif; 
+    
+   
+}
+.encabezado {position:sticky;
+}
+.logo 
+{
+width: 100px;
+border-radius: 20rem;
+justify-content: end;
+align-items: end;}
+
+.imgPr {
+    background-image: url("../img/rrqbn.jpeg");
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    justify-content: center;
+align-items: center;
+object-fit: cover;
+object-position: bottom;
+
+}
+
+.imgPr h1
+{
+    color: red;
+   
+    font-size: 45px;
+    padding-inline: 15px;
+    background-color: rgba(0, 0, 0, 0.136);
+   
+}
+h2 {
+    background-color: rgba(0, 0, 0, 0.136);
+    color: black;
+}
+.footerr {
+    
+    height: 100px;
+    width: 100%;
+    padding: 11px;
+    margin-inline-end: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(128, 128, 128, 0.47);
+}
+.direcc {
+display: grid;
+justify-content: center;
+align-items: center;
+align-content: center;
+left:10px;
+ }
+.siemprepoderosas
+{color: red;
+font-size: 1.8rem} 
+
+.direcc:hover
+{color: red;}
+.buttons {
+    display: flex;
+    gap: 4rem; 
+    position: absolute;
+    orientation: portrait;
+right: 90px;
+ }
+
+.buttons a
+{
+text-decoration: none;
+height: 10px;
+color: white;
+}
+.buttons a:hover 
+{
+color: red;
+}
+@media screen and (max-width: 1200px){
+    .footerr 
+{background-color: red;}    
+}
+@media screen and (max-width: 700px) { 
+.buttons 
+{
+    display: grid;
+    grid-template-columns: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -13px;
+  margin-left: 40px;
+}}
+@media screen and (max-width: 1200px) {
+    .buttons a:hover 
+{color: black;}}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 0px 0px;
+    grid-template-areas:
+      ""  "" ". . .";
+      background-color:rgba(105, 105, 105, 0.176)
+    }
+
+
+  
+
+.foto2
+{  height: 40rem;
+   padding: 28px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: center;
+}
+h3{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
+}
+h4 {display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;}
+   
+.videord{
+padding: 50px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+align-content: center;
+margin-top: 100px;}  
+
+    .p1 {padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;}
+    .p2 {padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;}
+    .sone{
+        padding: 50px;
+        height: 480px;
+        border-radius: 20rem;
+    }
+    .wftda {
+        padding: 50px;
+        height: 480px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-left: 70px;
+    }
+    .container-s{
+        
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; 
+            gap: 0px 0px; 
+            grid-template-areas: 
+              ". ."
+              ". .";     
+              background-color:rgba(105, 105, 105, 0.176)}
+.wftdah4{
+color: red;}
+.imgunal
+{ 
+height: 780px;
+padding: 60px;
+}
+
+.h3galeria
+{background-color:rgba(105, 105, 105, 0.176)}
