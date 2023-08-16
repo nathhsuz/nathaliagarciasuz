@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,100;1,800&family=Noto+Sans+TC:wght@300;400;700&family=Ysabeau+Office:ital,wght@0,300;0,400;1,400;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.imgPr {
+  background-image: url("../img/rrqbn.jpeg");
+  margin-top: 15px;
+  height: 100vh;
+  width: 100% 100%;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  justify-content: center;
+  align-items: center;
+}
+.imgPr .imgPr h1 {
+  color: red;
+  font-size: 43px;
+  padding-inline: 15px;
+  background-color: rgba(0, 0, 0, 0.136);
+}
+.imgPr .imgPr h1:hover {
+  transition-property: rgba(86, 5, 5, 0.876);
+  transition-duration: 5s;
+}
+.imgPr h2 {
+  background-color: rgba(0, 0, 0, 0.136);
+  color: black;
+  margin-top: 60px;
+}
+
+.foto2 {
+  width: 100%;
+  padding: 28px;
+  margin-top: 20rem;
+}
+.foto2 h3 {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10rem;
+  font-size: 80px;
+}
+.foto2 h3 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 75px;
+  margin-bottom: 15rem;
+}
+.foto2 h3 h4 .videord {
+  width: 100%;
+  padding: 20px;
+  margin-top: 15rem;
+}
+.foto2 h3 h4 .videord .sone {
+  width: 100%;
+  height: 400px;
+  margin-top: 10rem;
+  height: 600px;
+  border-radius: 20rem;
+}
+
+.unal1 {
+  width: 100%;
+}
+.unal1 .h5contacto {
+  background-color: red;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.divgaleria {
+  margin-bottom: 30rem;
+}
+.divgaleria .h1galeria {
+  margin-top: 170px;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 50px;
+  color: black;
+  transition-property: all;
+  transition-duration: 1.5s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
+}
+.divgaleria .h1galeria .galeria2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 70px;
+  padding: 80px;
+  font-size: 50px;
+  transition-property: all;
+  transition-duration: 1.5s;
+  transition-delay: 0s;
+  transition-timing-function: linear;
+}
+.divgaleria .h1galeria .galeria2galeria2:hover {
+  background-color: black;
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  orientation: portrait;
+  right: 90px;
+}
+.buttons .buttons a {
+  text-decoration: none;
+  height: 10px;
+  color: white;
+  gap: 1.8em;
+}
+.buttons .buttons a .buttons a:hover {
+  color: red;
+}
+
+.footerr {
+  width: 100%;
+  padding: 11px;
+  margin-inline-end: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(128, 128, 128, 0.47);
+}
+.footerr .direcc {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  left: 5px;
+  color: black;
+}
+.footerr .direcc .siemprepoderosas {
+  color: red;
+  font-size: 1.8rem;
+}
+.footerr .direcc .siemprepoderosassiemprepoderosas:hover {
+  color: rgb(246, 13, 13);
+}/*# sourceMappingURL=style.css.map */

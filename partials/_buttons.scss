@@ -1,0 +1,22 @@
+.buttons {
+    display: flex;
+    gap: 2rem; 
+    position: absolute;
+    orientation: portrait;
+right: 90px;
+
+.buttons a 
+{
+text-decoration: none;
+height: 10px;
+color: white;
+gap: 1.8em;
+
+.buttons a:hover 
+{
+color: red;
+
+}
+
+}
+}

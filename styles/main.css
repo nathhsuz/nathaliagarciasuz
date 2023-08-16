@@ -7,10 +7,8 @@
     font-family: 'Kanit', sans-serif;
     font-family: 'Noto Sans TC', sans-serif; 
     
-   
 }
-.encabezado {position:sticky;
-}
+
 .logo 
 {
 width: 100px;
@@ -20,36 +18,65 @@ align-items: end;}
 
 .imgPr {
     background-image: url("../img/rrqbn.jpeg");
-
-    height: 100vh;
-    width: 100%;
+    margin-top: 15px;
+   height: 100vh;
+    width: 100% 100%;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    justify-content: center;
+    justify-content: center;  
 align-items: center;
-object-fit: cover;
-object-position: bottom;
+
 
 }
 
 .imgPr h1
 {
-    color: red;
-   
-    font-size: 45px;
+     color: red;
+    font-size: 43px;
     padding-inline: 15px;
+   
     background-color: rgba(0, 0, 0, 0.136);
    
 }
-h2 {
+
+.imgPr h1:hover
+{
+transition-property: rgba(86, 5, 5, 0.876) ;
+transition-duration: 4s;
+}
+
+@media screen and (max-width: 1024px)
+{
+
+    .imgPr h1{
+        margin-top: 33rem;
+        font-size: 1.5rem;
+    
+    
+}
+}
+
+    h2 {
     background-color: rgba(0, 0, 0, 0.136);
     color: black;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1024px)
+
+{
+
+h2{ margin-top: 33rem;
+    font-size: 1.5rem;
+
+
+}
 }
 .footerr {
     
-    height: 100px;
+
     width: 100%;
     padding: 11px;
     margin-inline-end: 30px;
@@ -64,17 +91,26 @@ display: grid;
 justify-content: center;
 align-items: center;
 align-content: center;
-left:10px;
+left:5px;
+color: black;
+
+
  }
+ 
 .siemprepoderosas
 {color: red;
-font-size: 1.8rem} 
+font-size: 1.8rem
+} 
 
-.direcc:hover
-{color: red;}
+.siemprepoderosas:hover
+{
+color: rgb(246, 13, 13);
+
+}
+
 .buttons {
     display: flex;
-    gap: 4rem; 
+    gap: 2rem; 
     position: absolute;
     orientation: portrait;
 right: 90px;
@@ -85,25 +121,27 @@ right: 90px;
 text-decoration: none;
 height: 10px;
 color: white;
+gap: 1.8em;
 }
 .buttons a:hover 
 {
 color: red;
 }
-@media screen and (max-width: 1200px){
-    .footerr 
-{background-color: red;}    
+@media screen and (max-width: 1030px){
+    .footerr{
+        width: 100%;
+
+        background-color: red;}    
 }
 @media screen and (max-width: 700px) { 
 .buttons 
 {
-    display: grid;
-    grid-template-columns: 20px 20px;
+   
     align-items: center;
     justify-content: center;
     align-items: center;
     margin-bottom: -13px;
-  margin-left: 40px;
+  margin-left: 35px;
 }}
 @media screen and (max-width: 1200px) {
     .buttons a:hover 
@@ -116,82 +154,332 @@ color: red;
     gap: 0px 0px;
     grid-template-areas:
       ""  "" ". . .";
-      background-color:rgba(105, 105, 105, 0.176)
     }
+    
+    
+    @media screen and (max-width: 1030px)
+{
+    .grid-container 
+    {
+        grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr) ;
+    grid-template-areas:
+      ""
+      "" 
+      ""
+      "";
 
-
-  
-
-.foto2
-{  height: 40rem;
-   padding: 28px;
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   align-content: center;
+    } 
 }
+    
+    
+.foto2
+{  width: 100%;
+     padding: 28px;
+margin-top: 20rem;
+}
+
 h3{
     color: red;
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center; 
+    margin-top: 10rem;
+    font-size: 80px;
 }
+@media screen and (max-width: 1030px)
+{
+    h3 
+{ 
+background-color: rgba(255, 0, 0, 0.843);
+color: black;
+}
+}
+
 h4 {display: flex;
     align-items: center;
     justify-content: center;
-    align-content: center;}
-   
+    align-content: center;
+    font-size: 75px;
+    margin-bottom: 15rem;
+}
+@media screen and (max-width: 1030px)
+
+{
+h4
+{color: white;
+    background-color: black  
+}
+}
 .videord{
-padding: 50px;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
-align-content: center;
-margin-top: 100px;}  
+width: 100%;
+padding: 20px;
+margin-top: 15rem;
+}  
 
     .p1 {padding: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-content: center;}
+      margin-top: 14rem;
+       }
     .p2 {padding: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
         align-content: center;}
-    .sone{
-        padding: 50px;
-        height: 480px;
+        .p2:first-letter
+{color: red;}   
+.sone{width: 100%;
+    height: 400px;
+   margin-top: 10rem;
+     
+        height: 600px;
         border-radius: 20rem;
+      
     }
     .wftda {
-        padding: 50px;
-        height: 480px;
+        width: 100%;
+        padding: 150px;
+        display: grid;
         align-items: center;
         justify-content: center;
         align-content: center;
-        margin-left: 70px;
+        margin-left: 60px;
+        margin-top: 14rem;
+        
     }
+    @media screen and (max-width: 1030px)
+{
+    .wftda
+{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2px;
+  
+    
+}
+}    
     .container-s{
         
             display: grid; 
             grid-template-columns: 1fr 1fr; 
             grid-template-rows: 1fr 1fr; 
-            gap: 0px 0px; 
+         
             grid-template-areas: 
               ". ."
               ". .";     
-              background-color:rgba(105, 105, 105, 0.176)}
-.wftdah4{
-color: red;}
-.imgunal
-{ 
-height: 780px;
-padding: 60px;
+    }
+    @media screen and (max-width: 1030px)
+    {  
+        .container-s{ 
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas:
+              ".";
+              "." 
+              "."
+              ".";
+    
+    }
+    }  
+
+.p12{
+    font-size: 3vh;
+margin-top: 20rem;
+color:dimgrey
+}
+@media screen and (max-width: 1024px)
+
+{
+     .p12 {
+    margin-top: 10rem;
+    color:dimgrey;
+    
+    
+    }
+}
+.p12::first-letter
+{color: black;
+    font-size: 2.5rem;
+    font-family:cursive
+}
+.p24{
+    font-size: 3vh;
+    margin-top: 13rem;
+    color: dimgrey;
+}
+.p24::first-letter{
+    color: red;
+    font-size: 2.5rem;
+    font-family:cursive
+
+}
+.sOneLetra{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 4.5rem;
+margin-top: -150px;
+ 
 }
 
-.h3galeria
-{background-color:rgba(105, 105, 105, 0.176)}
+
+.wftdaLetra{
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+   
+   margin-top: 50px;
+    color: red;
+
+}
+@media screen and (max-width: 1030px)
+
+{
+    .wftdaLetra
+{
+    background-color: black;
+}    
+}
+.unal1
+{ width: 100%;
+   
+}
+.h5contacto{
+    background-color: red;
+    font-size: 35px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+ } 
+  
+.form{
+
+  padding: 19px;
+  border-style:ridge;
+ background-color:  rgba(0, 0, 0, 0.10);
+box-shadow: 10px;
+
+
+}
+@media screen and (max-width:1024)
+{  
+.form{ padding: 19px;
+    border-style:ridge
+
+}
+}  
+@media screen and (max-width: 1030px)
+{
+
+.sOneLetra{
+background-color: red;
+font-size: 70px;
+
+
+}
+}
+.divgaleria{
+    margin-bottom: 30rem;
+   
+}
+@media screen and (max-width: 1030%)
+{
+   .divgaleria {
+   margin-top: 100px;
+    height: 300px;
+}
+}
+.h1galeria{
+
+    margin-top: 170px;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    color: black;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-delay: 0s;
+    transition-timing-function:linear ;  
+}
+
+.galeria2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 70px;
+    padding: 80px;
+    font-size: 50px;
+
+    transition-property: all;
+transition-duration: 1.5s;
+transition-delay: 0s;
+transition-timing-function:linear ;
+}
+.h1galeria:hover {
+ background-color: red;
+    color: white;
+}
+.galeria2:hover
+{
+    background-color: black;
+    color: red;
+}
+.h5contacto { 
+    padding: 20px;
+    color: white;
+    background: rgb(224,22,22);
+    background: linear-gradient(294deg, rgba(224,22,22,1) 17%, rgba(11,2,2,1) 75%);
+  
+    }
+
+    .sOneLetra
+{
+transition: transform 1s;
+}    
+.sOneLetra:hover
+
+{
+transform: rotate(120deg) scale(2) skew(30deg)
+}
+
+.wftdaLetra
+{
+    transition: 1s;
+}    
+.wftdaLetra:hover{
+    transform: rotate(120deg) scale(2) skew(30deg)
+}
+.foto2
+{
+transition: all 1.5s;
+transform: scale(1.1) translateY(-60px);
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.videord
+{
+    transition: all 1.5s;
+    transform: scale(1.1) translateY(-60px) ;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}   
+.imgPr h1
+{
+    transition: all 4s;
+transform: scale(1.2) translateY(-60px);
+}
+.h2
+{
+    transition: all 4s;
+    transform: scale(1.2) translateY(-60px);
+}

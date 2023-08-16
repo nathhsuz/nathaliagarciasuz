@@ -1,0 +1,92 @@
+.foto2
+{  width: 100%;
+     padding: 28px;
+margin-top: 20rem;
+h3{
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center; 
+    margin-top: 10rem;
+    font-size: 80px;
+
+    h4 {display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        font-size: 75px;
+        margin-bottom: 15rem;
+        
+        .videord{
+            width: 100%;
+            padding: 20px;
+            margin-top: 15rem;
+
+            .sone{width: 100%;
+                height: 400px;
+               margin-top: 10rem;
+                 
+                    height: 600px;
+                    border-radius: 20rem;
+            }         
+        }
+    }
+}
+}
+.unal1
+{ 
+    width: 100%;
+   
+    .h5contacto{
+        background-color: red;
+        font-size: 35px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+}  
+.divgaleria{
+    margin-bottom: 30rem;  
+
+    .h1galeria{
+
+        margin-top: 170px;
+        padding: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        font-size: 50px;
+        color: black;
+        transition-property: all;
+        transition-duration: 1.5s;
+        transition-delay: 0s;
+        transition-timing-function:linear ;  
+        .galeria2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 70px;
+            padding: 80px;
+            font-size: 50px;
+        
+            transition-property: all;
+        transition-duration: 1.5s;
+        transition-delay: 0s;
+        transition-timing-function:linear ;
+       
+        &galeria2:hover
+{      
+        background-color: black;
+            color: red;
+}
+}
+}
+}      
+
+        
