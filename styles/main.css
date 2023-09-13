@@ -177,19 +177,21 @@ height: 100%;
 
 .videord{
 width: 100%;
-padding: 150px;
+padding: 10em;
 margin-top: -30em;
 
 }  
 
     .p1 {padding: 30px;
       margin-top: 14rem;
+      
        }
     .p2 {padding: 30px;
         display: flex;
         align-items: center;
         justify-content: center;
-        align-content: center;}
+        align-content: center;
+    margin-left: 2em;}
 
 .p2:first-letter
 {color: red;}   
@@ -245,24 +247,31 @@ margin-right: 7em;
     
     .foto2
     {  width: 100%;
-    
-        padding: 30px;
+    padding:39px;
+        
     margin-top: 20rem;
     
     }
     .videord{
         width: 100%;
-        height: 40em;
+       margin-bottom: ;
         padding: 30px;
-        margin-bottom: -65rem;
+        
+        margin-bottom: -40rem;
          }  
+         @media screen and {max-width: 1030;
+            
+         }
          
          @media screen and (max-width: 1024px){
         
 .videord
 
 { 
-    padding: 2rem;
+    width: 77%;
+   margin-top: 9em;
+    margin-left: 3em;
+   
 
 }}         
     h4 {
@@ -283,18 +292,18 @@ margin-right: 7em;
        margin-left: 1.3rem;
     }
     
-    .p12{
+    .container{
     font-size: 2.6vh;
     margin-top: 6rem;
-  padding: 3rem;
+
     color:dimgrey
     }
     
-    .p12::first-letter
+    .container::first-letter
     {color: black;
     font-size: 2.5rem;
     font-family:cursive}
-    .p24{
+    .container_dos{
    
         color: dimgrey;
         margin-top: 3rem;
@@ -302,7 +311,7 @@ margin-right: 7em;
         padding: 3rem;
         
         }
-        .p24::first-letter{
+        .container_dos::first-letter{
         color: red;
         font-size: 2.5rem;
         font-family:cursive
@@ -312,23 +321,15 @@ margin-right: 7em;
     @media screen and (max-width: 1024px)
     
     {
-     .p12 {
-        font-size: 3.8vh;
+     .container {
+      font-size: 1.4em;
     margin-top: 10rem;
     color:dimgrey;
-    margin-left: 3rem;
+
+
 
     }
-    .p24
-{
-    color: dimgrey;
-        margin-top: 3rem;
-        font-size: 3.8vh;
-        padding: 3rem;
-}       }
-    
-   
-    
+    }   
     
     
     @media screen and (max-width: 1030px)
@@ -342,6 +343,7 @@ margin-right: 7em;
 {
     color: white;
     background-color: red;
+   margin-left: -0.3em;
 }    }
 
 
@@ -557,3 +559,26 @@ padding: 3em;
     font-size: 32px;
     color: ;
   }
+
+
+@media screen and (max-width: 1030px)
+{.foto2
+    {  width: 77%;
+ 
+    margin-top: 15rem;
+    margin-left: 3.5rem;
+    
+    }
+    .fotodos{
+        width: 100%;
+    }
+}
+    
+    @media screen and (max-width: 1030px;)
+
+    {.container_dos
+
+    font-size: 1.4em;
+    margin-top: 10rem;
+    font-color; $fontKanit
+}

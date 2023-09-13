@@ -49,51 +49,42 @@
         <section>
 
             <div></div>
-            <div class="sOneLetra">S x One</div>
-             <a href="https://shop.s1helmets.com/"> <img  class="sone" src="../img/sone.jpeg" alt="s one helmets"></a>
+            <div target="_blank" class="sOneLetra">S x One</div>
+             <a target="_blank" href="https://shop.s1helmets.com/"> <img  class="sone" src="../img/sone.jpeg" alt="s one helmets"></a>
              <div class="sponsor">
               <p> 
-                ¡Si quieres hacer una colaboración o ser parte de nuestra liga, por favor dejanos los datos y nos comunicaremos! 👑
+                ¡Si quieres hacer una colaboración o ser parte de nuestra liga, por favor llena este formmulario y nos comunicaremos! 👑
               </p>
              </div>
+            
              <form class="formSponsor">
               <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputNombre4">Nombres</label>
-                  <input type="email" class="form-control" id="inputNombre4" placeholder="Nombres">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="inputPassword4">Apellidos</label>
-                  <input type="" class="form-control" id="apellidos4" placeholder="Apellidos">
-                </div>
-              </div>
-            
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputCity">Ciudad</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-              
-                <div class="form-group col-md-6">
-                  <label for="inputpais">País</label>
-                  <input type="text" class="form-control" id="inputpais">
-                </div>
-                
                 <div class="form-row">
                   <div class="form-group col-md-6">
-                    <label for="inputCity">Correo Electrónico</label>
-                    <input type="text" class="form-control" id="inputCorreo">
+                    <label for="nombreMarca">Nombre o (Emprendimiento/Marca) </label>
+                    <input type="Message" class="form-control" name="nombre" id="nombreMarca" placeholder="">
                   </div>
+                <div class="form-group col-md-6">
+                  <label for="correoElect">Correo Electrónico</label>
+                  <input required type="email" class="form-control" name="correo" id="correoElect" placeholder="Digite su Correo Electrónico">
+                </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="dejaMensaje">¡Cuentanos de ti y/o de tu marca!</label>
+                  <input type="inputMessage" class="form-control" name="message" id="dejaMensaje" placeholder="">
+                </div>
+                
+        
               </div>
               <div class="form-group">
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
+                  <input  class="form-check-input" required type="checkbox" id="tratamientoDatos">
+                  <label class="form-check-label"  for="gridCheck">
                     Acepto tratamiento de datos
                   </label>
                 </div>
               </div>
-              <button type="submit" class="btn btn-danger">Enviar</button>
+              <button type="submit" onclick="captura()" class="btn btn-danger">Enviar</button>
             </form>
             
             
@@ -114,10 +105,10 @@
            
      
            <section class="buttons">
-             <a href="https://twitter.com/RollerQueens" class="fa-brands fa-twitter fa-2xl"></a>
-             <a href="https://www.tiktok.com/@rollerqueens" class="fa-brands fa-tiktok fa-2xl"></a>
-             <a href="https://www.instagram.com/rollerqueens/" class="fa-brands fa-instagram fa-2xl"></a>
-             <a href="https://www.facebook.com/RockNRollerQueens" class="fa-brands fa-facebook fa-2xl"></a>
+             <a href="https://twitter.com/RollerQueens" target="_blank" class="fa-brands fa-twitter fa-2xl"></a>
+             <a href="https://www.tiktok.com/@rollerqueens" target="_blank" class="fa-brands fa-tiktok fa-2xl"></a>
+             <a href="https://www.instagram.com/rollerqueens/"  target="_blank" class="fa-brands fa-instagram fa-2xl"></a>
+             <a href="https://www.facebook.com/RockNRollerQueens" target="_blank" class="fa-brands fa-facebook fa-2xl"></a>
      
            </section>
          </div>
@@ -128,5 +119,6 @@
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
          integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
          crossorigin="anonymous"></script>
+         <script src="../js/main.js"></script>
 </body>
 </html>
